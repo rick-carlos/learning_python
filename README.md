@@ -1,1 +1,3 @@
-Here my jorney in Python begins
+**Scripts criados**
+
+Probabilidade: Calculo de probabilidade simples
