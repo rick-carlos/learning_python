@@ -7,7 +7,7 @@ class LeitorDeValores():
     def formatar_valores(self):  # Converter a string em inteiros
         while True:
             try:
-                numeros = input("Digite os valores, se for mais de um, separado por espaço")
+                numeros = input("Digite os valores, se for mais de um então separe por espaço: ")
                 self.valores = [int(valor) for valor in numeros.split()]
                 # split() é usado pra separar os valores da string, o separador vai ser definido entre o (), como ('-')
                 # se nada for definido, então o separador será o espaço.
