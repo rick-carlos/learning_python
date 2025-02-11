@@ -1,3 +1,5 @@
-from matematica.probabilidade import Probabilidade
+from matematica.get_valores import LeitorDeValores
 
-a = Probabilidade.resultado()
+a = LeitorDeValores()
+a.formatar_valores()
+print(a.pegar_valores())
